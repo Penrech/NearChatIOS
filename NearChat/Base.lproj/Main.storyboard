@@ -17,7 +17,81 @@
                     <view key="view" contentMode="scaleToFill" id="Eus-w9-v7m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx5-jH-pdV" userLabel="changeBetweenMapAndChat" customClass="CustomToolbarButton" customModule="NearChat" customModuleProvider="target">
+                                <rect key="frame" x="323" y="53" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.50588235290000005" green="0.83137254900000002" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="DGl-xB-bfy"/>
+                                    <constraint firstAttribute="height" constant="40" id="Tqr-gM-ZyP"/>
+                                    <constraint firstAttribute="width" constant="40" id="lVs-IC-5L6"/>
+                                    <constraint firstAttribute="height" constant="40" id="zuK-Ks-gXb"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="Icon_list_white">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="960-KA-M6p" userLabel="showConversations" customClass="CustomToolbarButton" customModule="NearChat" customModuleProvider="target">
+                                <rect key="frame" x="271" y="53" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.50588235290000005" green="0.83137254900000002" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="tKp-sN-6QD"/>
+                                    <constraint firstAttribute="width" constant="40" id="zNt-lg-VGY"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="Icon_visibility_white">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOX-Cq-Kla" userLabel="eventInfo" customClass="CustomToolbarButton" customModule="NearChat" customModuleProvider="target">
+                                <rect key="frame" x="219" y="53" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.50588235290000005" green="0.83137254900000002" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CmJ-8C-nSn"/>
+                                    <constraint firstAttribute="width" constant="40" id="H4A-QL-sUP"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="Icon_info_white">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3Y-Ha-gyS" userLabel="myPosition" customClass="CustomToolbarButton" customModule="NearChat" customModuleProvider="target">
+                                <rect key="frame" x="167" y="53" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.50588235290000005" green="0.83137254900000002" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="JAw-3X-1Pd"/>
+                                    <constraint firstAttribute="height" constant="40" id="f4f-pt-KoW"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="Icon_position_white">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dx5-jH-pdV" firstAttribute="top" secondItem="rh5-ze-y2M" secondAttribute="top" constant="9" id="9GP-cv-e7C"/>
+                            <constraint firstItem="dx5-jH-pdV" firstAttribute="leading" secondItem="960-KA-M6p" secondAttribute="trailing" constant="12" id="Lp5-HU-rvP"/>
+                            <constraint firstItem="rh5-ze-y2M" firstAttribute="trailing" secondItem="dx5-jH-pdV" secondAttribute="trailing" constant="12" id="OSh-EY-7kv"/>
+                            <constraint firstItem="G3Y-Ha-gyS" firstAttribute="top" secondItem="rh5-ze-y2M" secondAttribute="top" constant="9" id="UVX-Zm-swo"/>
+                            <constraint firstItem="960-KA-M6p" firstAttribute="leading" secondItem="gOX-Cq-Kla" secondAttribute="trailing" constant="12" id="cio-v2-oau"/>
+                            <constraint firstItem="gOX-Cq-Kla" firstAttribute="top" secondItem="rh5-ze-y2M" secondAttribute="top" constant="9" id="eGv-z9-qGS"/>
+                            <constraint firstItem="960-KA-M6p" firstAttribute="top" secondItem="rh5-ze-y2M" secondAttribute="top" constant="9" id="gTd-gJ-Iie"/>
+                            <constraint firstItem="gOX-Cq-Kla" firstAttribute="leading" secondItem="G3Y-Ha-gyS" secondAttribute="trailing" constant="12" id="vWY-xi-e3g"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rh5-ze-y2M"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="event_navigation_uncheck" selectedImage="event_navigation_check" id="Mf8-6D-DSE">
@@ -35,7 +109,28 @@
                     <view key="view" contentMode="scaleToFill" id="dOV-lb-vg8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mYw-jL-Tb4" customClass="CustomNavigationBar" customModule="NearChat" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <color key="barTintColor" red="0.70196078429999997" green="0.8980392157" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.2470588235" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Usuario" id="2pq-dp-iSM">
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="Icon_edit" id="reT-hM-Ovj">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mYw-jL-Tb4" firstAttribute="leading" secondItem="TRU-aZ-GeY" secondAttribute="leading" id="LAr-bl-7Ex"/>
+                            <constraint firstItem="mYw-jL-Tb4" firstAttribute="top" secondItem="TRU-aZ-GeY" secondAttribute="top" id="ajT-W6-Wfb"/>
+                            <constraint firstItem="mYw-jL-Tb4" firstAttribute="trailing" secondItem="TRU-aZ-GeY" secondAttribute="trailing" id="w0L-0E-jZm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="TRU-aZ-GeY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="user_navigation_iphone_uncheck" selectedImage="user_navigation_check" id="6FB-2h-nNN">
@@ -73,7 +168,72 @@
                     <view key="view" contentMode="scaleToFill" id="DT8-Xg-Oyg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rIN-jh-q1u" customClass="CustomUIViewTouches" customModule="NearChat" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="375" height="685"/>
+                                <connections>
+                                    <segue destination="xSi-dF-JRk" kind="embed" id="exH-fp-APf"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeH-0V-T4A" userLabel="changeBetweenMapAndList" customClass="CustomToolbarButton" customModule="NearChat" customModuleProvider="target">
+                                <rect key="frame" x="323" y="53" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.50588235294117645" green="0.83137254901960778" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="B71-uK-aFx"/>
+                                    <constraint firstAttribute="width" constant="40" id="aUa-4Z-r0q"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="Icon_list_white">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W64-IK-MrX" userLabel="myPosition" customClass="CustomToolbarButton" customModule="NearChat" customModuleProvider="target">
+                                <rect key="frame" x="271" y="53" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.50588235290000005" green="0.83137254900000002" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="qSG-0E-nEb"/>
+                                    <constraint firstAttribute="height" constant="40" id="yMj-3Q-Gn0"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="Icon_position_white">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzM-Ef-TAH" userLabel="showEventArea" customClass="CustomToolbarButton" customModule="NearChat" customModuleProvider="target">
+                                <rect key="frame" x="219" y="53" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.50588235290000005" green="0.83137254900000002" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="neF-hZ-YLz"/>
+                                    <constraint firstAttribute="width" constant="40" id="qBc-ra-mUS"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="Icon_event_no_range_white">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rIN-jh-q1u" firstAttribute="leading" secondItem="KHg-G4-Qz3" secondAttribute="leading" id="1eb-b7-mWT"/>
+                            <constraint firstItem="rIN-jh-q1u" firstAttribute="top" secondItem="KHg-G4-Qz3" secondAttribute="top" id="Mho-Bd-KGC"/>
+                            <constraint firstItem="hzM-Ef-TAH" firstAttribute="top" secondItem="KHg-G4-Qz3" secondAttribute="top" constant="9" id="N8S-k5-8zj"/>
+                            <constraint firstItem="W64-IK-MrX" firstAttribute="leading" secondItem="hzM-Ef-TAH" secondAttribute="trailing" constant="12" id="bgt-jt-Fjf"/>
+                            <constraint firstItem="oeH-0V-T4A" firstAttribute="top" secondItem="KHg-G4-Qz3" secondAttribute="top" constant="9" id="dsR-em-96x"/>
+                            <constraint firstItem="KHg-G4-Qz3" firstAttribute="trailing" secondItem="rIN-jh-q1u" secondAttribute="trailing" id="f65-hH-axr"/>
+                            <constraint firstItem="W64-IK-MrX" firstAttribute="top" secondItem="KHg-G4-Qz3" secondAttribute="top" constant="9" id="iVR-sg-k0Z"/>
+                            <constraint firstItem="oeH-0V-T4A" firstAttribute="leading" secondItem="W64-IK-MrX" secondAttribute="trailing" constant="12" id="kMQ-Db-yOh"/>
+                            <constraint firstItem="KHg-G4-Qz3" firstAttribute="trailing" secondItem="oeH-0V-T4A" secondAttribute="trailing" constant="12" id="sJL-PZ-nax"/>
+                            <constraint firstItem="KHg-G4-Qz3" firstAttribute="bottom" secondItem="rIN-jh-q1u" secondAttribute="bottom" id="zgy-9U-FsE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="KHg-G4-Qz3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="position_pin_navigation_uncheck" selectedImage="position_pin_navigation_check" id="0KA-VY-jpa">
@@ -82,7 +242,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JFx-6Y-OVD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-754" y="-611"/>
+            <point key="canvasLocation" x="-754.39999999999998" y="-611.08374384236458"/>
+        </scene>
+        <!--Home Page View Controller-->
+        <scene sceneID="BRd-Na-i0I">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="xSi-dF-JRk" customClass="HomePageViewController" customModule="NearChat" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l1L-nR-qKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="81" y="-611"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NnU-B4-X9S">
+            <objects>
+                <viewController storyboardIdentifier="homeMapViewController" id="VoV-EV-Csr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dEX-HY-Ftu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mapa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9H-Av-W1T">
+                                <rect key="frame" x="157.33333333333334" y="391" width="60.666666666666657" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Q9H-Av-W1T" firstAttribute="centerX" secondItem="dEX-HY-Ftu" secondAttribute="centerX" id="LmA-c7-ZCF"/>
+                            <constraint firstItem="Q9H-Av-W1T" firstAttribute="centerY" secondItem="dEX-HY-Ftu" secondAttribute="centerY" id="wPU-fd-cFE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MKW-fI-BXH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ib3-C7-vom" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="-611"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8Ig-WI-XGQ">
@@ -106,8 +301,41 @@
             </objects>
             <point key="canvasLocation" x="-1706" y="-279"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Juh-md-QlG">
+            <objects>
+                <viewController storyboardIdentifier="homeListViewController" id="wCS-EY-Atg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="homeListViewController" id="bFS-Ri-Nbv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LtN-4W-hK8">
+                                <rect key="frame" x="168" y="391" width="39" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71764705882352942" green="0.90588235294117647" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LtN-4W-hK8" firstAttribute="centerY" secondItem="bFS-Ri-Nbv" secondAttribute="centerY" id="fLq-eD-C8R"/>
+                            <constraint firstItem="LtN-4W-hK8" firstAttribute="centerX" secondItem="bFS-Ri-Nbv" secondAttribute="centerX" id="pL8-Ut-bo3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="k0S-C3-foL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dNm-q5-ADi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1702" y="-611"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Icon_edit" width="250" height="250"/>
+        <image name="Icon_event_no_range_white" width="250" height="250"/>
+        <image name="Icon_info_white" width="250" height="250"/>
+        <image name="Icon_list_white" width="250" height="250"/>
+        <image name="Icon_position_white" width="250" height="250"/>
+        <image name="Icon_visibility_white" width="250" height="250"/>
         <image name="event_navigation_check" width="40" height="40"/>
         <image name="event_navigation_uncheck" width="40" height="40"/>
         <image name="more_navigation_check" width="40" height="40"/>

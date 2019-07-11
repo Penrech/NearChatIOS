@@ -11,6 +11,10 @@
 		B94641A322CF5C8900C9338F /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94641A222CF5C8900C9338F /* EventViewController.swift */; };
 		B94641A522CF5C9200C9338F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94641A422CF5C9200C9338F /* ProfileViewController.swift */; };
 		B94641A722CF5C9A00C9338F /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94641A622CF5C9A00C9338F /* MoreViewController.swift */; };
+		B9B0B02F22D62CBB000405B1 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B02E22D62CBB000405B1 /* CustomNavigationBar.swift */; };
+		B9B0B03122D63176000405B1 /* CustomToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B03022D63176000405B1 /* CustomToolbarButton.swift */; };
+		B9B0B03322D64043000405B1 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B03222D64043000405B1 /* HomePageViewController.swift */; };
+		B9B0B03522D642E9000405B1 /* CustomUIViewTouches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B03422D642E9000405B1 /* CustomUIViewTouches.swift */; };
 		B9E1856322CE058100E7857C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E1856222CE058100E7857C /* AppDelegate.swift */; };
 		B9E1856822CE058100E7857C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E1856622CE058100E7857C /* Main.storyboard */; };
 		B9E1856A22CE058200E7857C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E1856922CE058200E7857C /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 		B94641A222CF5C8900C9338F /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		B94641A422CF5C9200C9338F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B94641A622CF5C9A00C9338F /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		B9B0B02E22D62CBB000405B1 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		B9B0B03022D63176000405B1 /* CustomToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolbarButton.swift; sourceTree = "<group>"; };
+		B9B0B03222D64043000405B1 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		B9B0B03422D642E9000405B1 /* CustomUIViewTouches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIViewTouches.swift; sourceTree = "<group>"; };
 		B9E1855F22CE058100E7857C /* NearChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E1856222CE058100E7857C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9E1856722CE058100E7857C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +101,7 @@
 				B94641A222CF5C8900C9338F /* EventViewController.swift */,
 				B94641A422CF5C9200C9338F /* ProfileViewController.swift */,
 				B94641A622CF5C9A00C9338F /* MoreViewController.swift */,
+				B9B0B03222D64043000405B1 /* HomePageViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,6 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				B9E1857822CE091100E7857C /* CustomTabBar.swift */,
+				B9B0B02E22D62CBB000405B1 /* CustomNavigationBar.swift */,
+				B9B0B03022D63176000405B1 /* CustomToolbarButton.swift */,
+				B9B0B03422D642E9000405B1 /* CustomUIViewTouches.swift */,
 			);
 			path = CustomClasses;
 			sourceTree = "<group>";
@@ -188,11 +200,15 @@
 				B9E1857D22CE2DCD00E7857C /* UIImage+Ext.swift in Sources */,
 				B9E1857B22CE0E9000E7857C /* UIColor+Ext.swift in Sources */,
 				B9E1857922CE091100E7857C /* CustomTabBar.swift in Sources */,
+				B9B0B02F22D62CBB000405B1 /* CustomNavigationBar.swift in Sources */,
 				B9E1856322CE058100E7857C /* AppDelegate.swift in Sources */,
 				B94641A522CF5C9200C9338F /* ProfileViewController.swift in Sources */,
+				B9B0B03122D63176000405B1 /* CustomToolbarButton.swift in Sources */,
+				B9B0B03322D64043000405B1 /* HomePageViewController.swift in Sources */,
 				B94641A722CF5C9A00C9338F /* MoreViewController.swift in Sources */,
 				B94641A122CF5C7900C9338F /* MainViewController.swift in Sources */,
 				B94641A322CF5C8900C9338F /* EventViewController.swift in Sources */,
+				B9B0B03522D642E9000405B1 /* CustomUIViewTouches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
