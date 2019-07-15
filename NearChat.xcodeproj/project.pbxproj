@@ -7,32 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B919D62922DC637A00A6CD3A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B919D62822DC637A00A6CD3A /* MainTabBarController.swift */; };
 		B94641A122CF5C7900C9338F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94641A022CF5C7900C9338F /* MainViewController.swift */; };
 		B94641A322CF5C8900C9338F /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94641A222CF5C8900C9338F /* EventViewController.swift */; };
 		B94641A522CF5C9200C9338F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94641A422CF5C9200C9338F /* ProfileViewController.swift */; };
 		B94641A722CF5C9A00C9338F /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94641A622CF5C9A00C9338F /* MoreViewController.swift */; };
-		B9B0B02F22D62CBB000405B1 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B02E22D62CBB000405B1 /* CustomNavigationBar.swift */; };
+		B975CF9B22D746B700E10FA6 /* HomeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975CF9A22D746B700E10FA6 /* HomeMapViewController.swift */; };
+		B975CF9D22D746C300E10FA6 /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975CF9C22D746C300E10FA6 /* HomeListViewController.swift */; };
+		B975CF9F22D74AE100E10FA6 /* UIApplication+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975CF9E22D74AE100E10FA6 /* UIApplication+EXT.swift */; };
+		B9AB2BED22D9F1A1005DA9AF /* CustomUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AB2BEC22D9F1A1005DA9AF /* CustomUIImageView.swift */; };
+		B9AB2BEF22D9F797005DA9AF /* CustomVerticalAlignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AB2BEE22D9F797005DA9AF /* CustomVerticalAlignLabel.swift */; };
+		B9AB2BF322DA0C30005DA9AF /* CustomTabBarProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AB2BF222DA0C30005DA9AF /* CustomTabBarProfile.swift */; };
 		B9B0B03122D63176000405B1 /* CustomToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B03022D63176000405B1 /* CustomToolbarButton.swift */; };
-		B9B0B03322D64043000405B1 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B03222D64043000405B1 /* HomePageViewController.swift */; };
-		B9B0B03522D642E9000405B1 /* CustomUIViewTouches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B03422D642E9000405B1 /* CustomUIViewTouches.swift */; };
 		B9E1856322CE058100E7857C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E1856222CE058100E7857C /* AppDelegate.swift */; };
 		B9E1856822CE058100E7857C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E1856622CE058100E7857C /* Main.storyboard */; };
 		B9E1856A22CE058200E7857C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E1856922CE058200E7857C /* Assets.xcassets */; };
 		B9E1856D22CE058200E7857C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E1856B22CE058200E7857C /* LaunchScreen.storyboard */; };
 		B9E1857922CE091100E7857C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E1857822CE091100E7857C /* CustomTabBar.swift */; };
 		B9E1857B22CE0E9000E7857C /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E1857A22CE0E9000E7857C /* UIColor+Ext.swift */; };
-		B9E1857D22CE2DCD00E7857C /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E1857C22CE2DCD00E7857C /* UIImage+Ext.swift */; };
+		B9E9101922D8DEDC00944074 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9101822D8DEDC00944074 /* UIViewController+Ext.swift */; };
+		B9E9101B22D8E12A00944074 /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9101A22D8E12A00944074 /* CustomPageViewController.swift */; };
+		B9ED6E8222D87523000514A6 /* CustomToolbarLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED6E8122D87523000514A6 /* CustomToolbarLabel.swift */; };
+		B9ED6E8522D87BB4000514A6 /* ScrollFromPageChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED6E8422D87BB4000514A6 /* ScrollFromPageChange.swift */; };
+		B9ED6E8722D88AC9000514A6 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED6E8622D88AC9000514A6 /* UIView+Ext.swift */; };
+		B9ED6E8D22D8D517000514A6 /* PageChangedPageControllerPotrocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED6E8C22D8D517000514A6 /* PageChangedPageControllerPotrocol.swift */; };
+		B9ED6E8F22D8DCF8000514A6 /* EventMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED6E8E22D8DCF8000514A6 /* EventMapViewController.swift */; };
+		B9ED6E9122D8DD04000514A6 /* EventChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED6E9022D8DD04000514A6 /* EventChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B919D62822DC637A00A6CD3A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		B94641A022CF5C7900C9338F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B94641A222CF5C8900C9338F /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		B94641A422CF5C9200C9338F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B94641A622CF5C9A00C9338F /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		B9B0B02E22D62CBB000405B1 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		B975CF9A22D746B700E10FA6 /* HomeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapViewController.swift; sourceTree = "<group>"; };
+		B975CF9C22D746C300E10FA6 /* HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewController.swift; sourceTree = "<group>"; };
+		B975CF9E22D74AE100E10FA6 /* UIApplication+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+EXT.swift"; sourceTree = "<group>"; };
+		B9AB2BEC22D9F1A1005DA9AF /* CustomUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIImageView.swift; sourceTree = "<group>"; };
+		B9AB2BEE22D9F797005DA9AF /* CustomVerticalAlignLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVerticalAlignLabel.swift; sourceTree = "<group>"; };
+		B9AB2BF222DA0C30005DA9AF /* CustomTabBarProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarProfile.swift; sourceTree = "<group>"; };
 		B9B0B03022D63176000405B1 /* CustomToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolbarButton.swift; sourceTree = "<group>"; };
-		B9B0B03222D64043000405B1 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
-		B9B0B03422D642E9000405B1 /* CustomUIViewTouches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIViewTouches.swift; sourceTree = "<group>"; };
 		B9E1855F22CE058100E7857C /* NearChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E1856222CE058100E7857C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9E1856722CE058100E7857C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,7 +56,14 @@
 		B9E1856E22CE058200E7857C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9E1857822CE091100E7857C /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		B9E1857A22CE0E9000E7857C /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
-		B9E1857C22CE2DCD00E7857C /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		B9E9101822D8DEDC00944074 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		B9E9101A22D8E12A00944074 /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
+		B9ED6E8122D87523000514A6 /* CustomToolbarLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolbarLabel.swift; sourceTree = "<group>"; };
+		B9ED6E8422D87BB4000514A6 /* ScrollFromPageChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollFromPageChange.swift; sourceTree = "<group>"; };
+		B9ED6E8622D88AC9000514A6 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		B9ED6E8C22D8D517000514A6 /* PageChangedPageControllerPotrocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageChangedPageControllerPotrocol.swift; sourceTree = "<group>"; };
+		B9ED6E8E22D8DCF8000514A6 /* EventMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapViewController.swift; sourceTree = "<group>"; };
+		B9ED6E9022D8DD04000514A6 /* EventChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,7 @@
 		B9E1856122CE058100E7857C /* NearChat */ = {
 			isa = PBXGroup;
 			children = (
+				B9ED6E8322D87BA2000514A6 /* Protocols */,
 				B9E1857722CE08F000E7857C /* CustomClasses */,
 				B9E1857622CE08E800E7857C /* Extensions */,
 				B9E1857522CE08E100E7857C /* Controllers */,
@@ -101,7 +124,12 @@
 				B94641A222CF5C8900C9338F /* EventViewController.swift */,
 				B94641A422CF5C9200C9338F /* ProfileViewController.swift */,
 				B94641A622CF5C9A00C9338F /* MoreViewController.swift */,
-				B9B0B03222D64043000405B1 /* HomePageViewController.swift */,
+				B975CF9A22D746B700E10FA6 /* HomeMapViewController.swift */,
+				B975CF9C22D746C300E10FA6 /* HomeListViewController.swift */,
+				B9ED6E8E22D8DCF8000514A6 /* EventMapViewController.swift */,
+				B9ED6E9022D8DD04000514A6 /* EventChatViewController.swift */,
+				B9E9101A22D8E12A00944074 /* CustomPageViewController.swift */,
+				B919D62822DC637A00A6CD3A /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,7 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				B9E1857A22CE0E9000E7857C /* UIColor+Ext.swift */,
-				B9E1857C22CE2DCD00E7857C /* UIImage+Ext.swift */,
+				B975CF9E22D74AE100E10FA6 /* UIApplication+EXT.swift */,
+				B9ED6E8622D88AC9000514A6 /* UIView+Ext.swift */,
+				B9E9101822D8DEDC00944074 /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -119,11 +149,22 @@
 			isa = PBXGroup;
 			children = (
 				B9E1857822CE091100E7857C /* CustomTabBar.swift */,
-				B9B0B02E22D62CBB000405B1 /* CustomNavigationBar.swift */,
 				B9B0B03022D63176000405B1 /* CustomToolbarButton.swift */,
-				B9B0B03422D642E9000405B1 /* CustomUIViewTouches.swift */,
+				B9ED6E8122D87523000514A6 /* CustomToolbarLabel.swift */,
+				B9AB2BEC22D9F1A1005DA9AF /* CustomUIImageView.swift */,
+				B9AB2BEE22D9F797005DA9AF /* CustomVerticalAlignLabel.swift */,
+				B9AB2BF222DA0C30005DA9AF /* CustomTabBarProfile.swift */,
 			);
 			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		B9ED6E8322D87BA2000514A6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED6E8422D87BB4000514A6 /* ScrollFromPageChange.swift */,
+				B9ED6E8C22D8D517000514A6 /* PageChangedPageControllerPotrocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,18 +238,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E1857D22CE2DCD00E7857C /* UIImage+Ext.swift in Sources */,
+				B9ED6E8522D87BB4000514A6 /* ScrollFromPageChange.swift in Sources */,
+				B9ED6E8F22D8DCF8000514A6 /* EventMapViewController.swift in Sources */,
+				B9ED6E9122D8DD04000514A6 /* EventChatViewController.swift in Sources */,
+				B9ED6E8222D87523000514A6 /* CustomToolbarLabel.swift in Sources */,
+				B9AB2BEF22D9F797005DA9AF /* CustomVerticalAlignLabel.swift in Sources */,
+				B9E9101922D8DEDC00944074 /* UIViewController+Ext.swift in Sources */,
 				B9E1857B22CE0E9000E7857C /* UIColor+Ext.swift in Sources */,
 				B9E1857922CE091100E7857C /* CustomTabBar.swift in Sources */,
-				B9B0B02F22D62CBB000405B1 /* CustomNavigationBar.swift in Sources */,
+				B9E9101B22D8E12A00944074 /* CustomPageViewController.swift in Sources */,
+				B919D62922DC637A00A6CD3A /* MainTabBarController.swift in Sources */,
 				B9E1856322CE058100E7857C /* AppDelegate.swift in Sources */,
+				B9AB2BED22D9F1A1005DA9AF /* CustomUIImageView.swift in Sources */,
 				B94641A522CF5C9200C9338F /* ProfileViewController.swift in Sources */,
 				B9B0B03122D63176000405B1 /* CustomToolbarButton.swift in Sources */,
-				B9B0B03322D64043000405B1 /* HomePageViewController.swift in Sources */,
+				B9AB2BF322DA0C30005DA9AF /* CustomTabBarProfile.swift in Sources */,
 				B94641A722CF5C9A00C9338F /* MoreViewController.swift in Sources */,
+				B975CF9D22D746C300E10FA6 /* HomeListViewController.swift in Sources */,
+				B9ED6E8D22D8D517000514A6 /* PageChangedPageControllerPotrocol.swift in Sources */,
 				B94641A122CF5C7900C9338F /* MainViewController.swift in Sources */,
+				B975CF9B22D746B700E10FA6 /* HomeMapViewController.swift in Sources */,
+				B9ED6E8722D88AC9000514A6 /* UIView+Ext.swift in Sources */,
+				B975CF9F22D74AE100E10FA6 /* UIApplication+EXT.swift in Sources */,
 				B94641A322CF5C8900C9338F /* EventViewController.swift in Sources */,
-				B9B0B03522D642E9000405B1 /* CustomUIViewTouches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

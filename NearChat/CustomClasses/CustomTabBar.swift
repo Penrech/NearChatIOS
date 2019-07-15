@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CustomTabBar: UITabBar {
+@IBDesignable class CustomTabBar: UITabBar {
     
     //MARK: - propiedades
     
@@ -29,7 +29,8 @@ class CustomTabBar: UITabBar {
   
   //Inicializo el tab bar cambiando su color de fondo asi como eliminando la imagen de sombra y la imagen background
     func deleteBackground(){
-        barTintColor = UIColor.defaultLightBlue
+        self.isTranslucent = true
+        backgroundColor = UIColor.defaultLightBlue
         shadowImage = UIImage()
         backgroundImage = UIImage()
     }
