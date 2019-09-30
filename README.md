@@ -15,8 +15,8 @@
 
 <h1>Actual propotype feautures - Dynamic navigation bar animations </h1>
 <p>
-  <a href='#img1'><img id='img1' width = '49%' src='ios_nc_1.png'/></a>
-  <a href='#img2'><img id='img2' width = '49%' src='ios_nc_2.png'/></a>
+  <a href='https://youtu.be/KMqwvHDWXvQ'><img id='img1' width = '49%' src='ios_nc_1.png'/></a>
+  <a href='https://youtu.be/SDI2s9lpbX4'><img id='img2' width = '49%' src='ios_nc_2.png'/></a>
 </p>
 
 <h1>License</h1>
