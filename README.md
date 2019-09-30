@@ -13,7 +13,7 @@
 <p>Nearchat (provisional name) is a location base chat concept application which let you talk with near users who join virtual chat rooms with a phisical location, called Events</p>
 <p>The app contained in this repo is an early concept, which might be developed in the future. This is the IOS version which is in a very early stage of development</p>
 
-<h1>Actual propotype feautures - Dynamic toolbar animations </h1>
+<h1>Actual propotype feautures - Dynamic navigation bar animations </h1>
 
 <h1>License</h1>
 <p>This repo acts like a portfolio and the app contained here <b>can't hold liability neither place warranty</b>. Furthermore, the final porpouse of this app is not decided yet, so in order to avoid problems in the future this repo has a <b>NonCommercial</b> CC-BY-NC license</p>
